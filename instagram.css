@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(146, 162, 175);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 70%;
+    height: 80vh;
+}
+
+.instagram-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    widows: 1%;
+}
+
+.instagram-phone img {
+    width: 30rem;
+}
+
+.instagram1 {
+    display: flex;
+    align-items: center; /* Horizontal */
+    justify-content: space-around; /* vertical */
+    flex-direction: column;
+    widows:50%;
+    min-width: 34rem;
+}
+
+.grup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(202, 248, 242);
+    widows: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid rgb(160, 199, 212);
+}
+
+.grup:nth-child(1) {
+    min-height: 19rem;
+}
+
+.instagram-logo {
+    height: 3rem;
+}
+
+.perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.perfil img {
+    height: 6rem;
+}
+
+.instagram-login {
+    background-color: rgb(13, 129, 155);
+    color: rgb(240, 252, 247);
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.instagram-sair {
+    color: rgb(13, 129, 155);
+    margin-top: 1rem;
+}
+
+.not-account {
+    color: rgb(135, 182, 182);
+}
+
+.link-blue {
+    color: mediumblue;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    widows: 100%;
+    padding: 1.3rem 0;
+}
+
+.downlaod {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-downlaod {
+    height: 3rem;
+    widows: 10rem;
+    background-size: cover;
+}
+
+.downlaod1:nth-child(1) {
+    background-image: url('imag/a1.jpg');
+}
+
+.app-downlaod:nth-child(2) {
+    background-image: url("imag/App2.jpg");
+}
+
+.a {
+    width: 50;
+    justify-content: center;
+    height: 4rem;
+}
+
+.b {
+    width: 50;
+    justify-content: center;
+    height: 4rem;
+}
+
+
+@media (max-width: 1024px) {
+    .instagram {
+        width: 90%;
+}
+.instagram-phone {
+    display: none;
+}
+.instagram1 {
+    width: 100%;
+}
+}
